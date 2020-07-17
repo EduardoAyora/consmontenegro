@@ -27,3 +27,33 @@
     height: 300px;
 }
 
+#beneficios h3 {
+    font-size: 45px;
+}
+
+#beneficios p {
+    font-size: 23px;
+    line-height: 200%;
+}
+
+#transporte .row-height {
+    height: 900px;
+    background-color: blue;
+}
+
+#transporte img {
+    width: 100%;
+    height: auto;
+}
+
+#redes-sociales .row-height {
+    height: 70px;
+    background-color: green;
+}
+
+footer{
+    background-color: #D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
