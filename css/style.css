@@ -6,20 +6,26 @@ header {
     background: url();
     background-image: 
         linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
         ),
         url("../images/jumbo.jpeg");
     background-size: cover;
     min-height: 100vh;
+    color: floralwhite;
 }
 
-.jumbotron {
-    background-color: rgba(0,0,0,0.8);
-    filter:  brightness(0.4);
-    background-image: url("../images/jumbo.jpeg");
-    background-size: cover;
-    height: 100vh;
+#cabecera {
+    height: calc(100vh - 56px);
+}
+
+#cabecera .row {
+    height: inherit;
+}
+
+#cabecera hr {
+    border-color: floralwhite;
+    border-top: 2px solid #ccc;
 }
 
 #servicios .card {
