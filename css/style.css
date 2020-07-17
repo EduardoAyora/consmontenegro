@@ -1,3 +1,14 @@
 .navbar-dark {
     background-color: #C97811;
 }
+
+.servicios .card {
+    width: 21rem;
+    height: 370px;
+}
+
+.servicios .card img {
+    width: inherit;
+    height: 250px;
+    object-fit: cover;
+}
