@@ -1,5 +1,25 @@
-.navbar-dark {
-    background-color: #C97811;
+header .navbar {
+    background-color: transparent;
+}
+
+header {
+    background: url();
+    background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url("../images/jumbo.jpeg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.jumbotron {
+    background-color: rgba(0,0,0,0.8);
+    filter:  brightness(0.4);
+    background-image: url("../images/jumbo.jpeg");
+    background-size: cover;
+    height: 100vh;
 }
 
 #servicios .card {
@@ -36,9 +56,12 @@
     line-height: 200%;
 }
 
+#transporte {
+    background-color: #e9ecef;
+}
+
 #transporte .row-height {
     height: 900px;
-    background-color: blue;
 }
 
 #transporte img {
@@ -46,14 +69,28 @@
     height: auto;
 }
 
+#redes-sociales {
+    background-color: #C97811;
+}
+
 #redes-sociales .row-height {
     height: 70px;
-    background-color: green;
+    color: floralwhite;
 }
 
 footer{
-    background-color: #D1C4E9;
+    background-color: #A05A02;
+    color: floralwhite;
     margin:0px auto;
-    padding: 20px 0px 20px 0px;
+    padding: 30px 0px 30px 0px;
+}
+
+footer a {
+    color: floralwhite;
+}
+
+footer a:hover, footer a:active {
+    color: gray;
+    text-decoration: none;
 }
 
