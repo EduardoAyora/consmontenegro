@@ -80,7 +80,7 @@ header {
 
 #transporte {
     padding-top: 60px;
-    padding-bottom: 81px;
+    padding-bottom: 71px;
 }
 
 #transporte h2 {
@@ -90,6 +90,22 @@ header {
 #transporte img {
     width: 100%;
     height: auto;
+}
+
+#contacto {
+    padding: 40px 0 60px 0;
+}
+
+#contacto i {
+    color: gray;
+}
+
+#contacto iframe {
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 400px !important;
+
 }
 
 #redes-sociales {
