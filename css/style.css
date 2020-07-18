@@ -44,7 +44,13 @@ header {
 }
 
 #maquinaria {
-    padding-top: 40px;
+    /* padding-top: 40px; */
+    padding-top: 100px;
+    padding-bottom: 84px;
+}
+
+#maquinaria h2 {
+    color: #F09D35;
 }
 
 .maquinaria-row {
@@ -55,6 +61,7 @@ header {
     background-color: #FFB65A;
     padding-top: 50px;
     padding-bottom: 50px;
+    color: white;
 }
 
 #beneficios .row-content {
@@ -73,6 +80,10 @@ header {
 #transporte {
     padding-top: 60px;
     padding-bottom: 81px;
+}
+
+#transporte h2 {
+    color: #F09D35;
 }
 
 #transporte img {
@@ -107,5 +118,10 @@ footer a:hover, footer a:active {
 footer hr {
     width: 60px; 
     border-color: #FFC883;
+}
+
+.color-box {
+    padding-top: 16px;
+    background-color: #FFC986;
 }
 
