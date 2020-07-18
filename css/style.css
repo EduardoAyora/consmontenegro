@@ -100,6 +100,10 @@ header {
     color: gray;
 }
 
+#contacto h2 {
+    color: #F09D35;
+}
+
 #contacto iframe {
     top: 0;
     left: 0;
@@ -113,11 +117,19 @@ header {
     padding: 25px 0px 25px 0px;
 }
 
+#redes-sociales a {
+    color: #A05A02;
+}
+
 footer{
     background-color: #A05A02;
     color: floralwhite;
     margin:0px auto;
-    padding: 30px 0px 30px 0px;
+    padding: 40px 0px 40px 0px;
+}
+
+footer {
+    line-height: 30px;
 }
 
 footer a {
@@ -125,8 +137,8 @@ footer a {
 }
 
 footer a:hover, footer a:active {
-    color: floralwhite;
     text-decoration: none;
+    color: #FFC883;
 }
 
 footer hr {
