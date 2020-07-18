@@ -1,3 +1,7 @@
+body {
+    font-family:'Arial','Verdana','Monaco',sans-serif;
+}
+
 header .navbar {
     background-color: transparent;
 }
@@ -6,7 +10,7 @@ header {
     background: url();
     background-image: 
         linear-gradient(
-        rgba(0, 0, 0, 0.7),
+        rgba(201, 120, 17, 0.7),
         rgba(0, 0, 0, 0.7)
         ),
         url("../images/jumbo.jpeg");
@@ -39,6 +43,10 @@ header {
     object-fit: cover;
 }
 
+#maquinaria {
+    padding-top: 40px;
+}
+
 .maquinaria-row {
     min-height:500px;
 }
@@ -63,11 +71,8 @@ header {
 }
 
 #transporte {
-    background-color: #e9ecef;
-}
-
-#transporte .row-height {
-    height: 900px;
+    padding-top: 60px;
+    padding-bottom: 81px;
 }
 
 #transporte img {
@@ -76,12 +81,11 @@ header {
 }
 
 #redes-sociales {
-    background-color: #C97811;
+    background-color: #FFC883;
 }
 
 #redes-sociales .row-height {
     height: 70px;
-    color: floralwhite;
 }
 
 footer{
@@ -92,11 +96,16 @@ footer{
 }
 
 footer a {
-    color: floralwhite;
+    color: #FFC883;
 }
 
 footer a:hover, footer a:active {
-    color: gray;
+    color: floralwhite;
     text-decoration: none;
+}
+
+footer hr {
+    width: 60px; 
+    border-color: #FFC883;
 }
 
