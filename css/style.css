@@ -2,6 +2,10 @@ body {
     font-family:'Arial','Verdana','Monaco',sans-serif;
 }
 
+.logo {
+    height: 35px;
+}
+
 header .navbar {
     background-color: transparent;
 }
@@ -13,7 +17,7 @@ header {
         rgba(201, 120, 17, 0.7),
         rgba(0, 0, 0, 0.7)
         ),
-        url("../images/jumbo.jpeg");
+        url("../images/fondo.jpeg");
     background-size: cover;
     min-height: 100vh;
     color: floralwhite;
@@ -76,6 +80,7 @@ header {
 #beneficios p {
     font-size: 23px;
     line-height: 200%;
+    margin-bottom: 0px;
 }
 
 #transporte {
@@ -127,6 +132,7 @@ footer {
     margin:0px auto;
     padding: 40px 0px 0px 0px;
     line-height: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 footer a {
